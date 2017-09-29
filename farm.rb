@@ -50,12 +50,14 @@ class Farm
         @@corn += field.size*20
         @@hectares += field.size
         puts "You have harvested #{field.size*20} bundles of corn!"
+        @@farm.delete(field)
       end
 
       if field.type == "wheat"
         @@wheat += field.size*30
         @@hectares += field.size
         puts "You have harvested #{field.size*30} bundles of wheat!"
+        @@farm.delete(field)
       end
     end
   end
