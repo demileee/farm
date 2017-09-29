@@ -77,7 +77,8 @@ class Farm
 
   def relax
     puts <<~o
-    hi
+    You sit on the porch after a long day's work, admiring your farm.
+    A calm breeze passes and cools off your aches and pains.
     o
   end
 
